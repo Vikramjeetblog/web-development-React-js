@@ -1,0 +1,90 @@
+.Title {
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 1rem;
+   flex-wrap: wrap;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+
+.HeroBanner {
+  text-align: center;
+}
+
+.Text {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.Text span {
+  display: block;
+}
+
+.line {
+ 
+  border-top: 3px dashed blueviolet ;
+
+  width: 50%;
+  margin-top: 20px;
+}
+
+
+.Meet {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.Member {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.teamMember {
+  text-align: center;
+  margin: 1rem;
+  flex: 1 1 40% 
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #333;
+}
+
+.position {
+  font-size: 1rem;
+  margin: 0.5rem 0 1rem 0;
+  color: #666;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .teamMember {
+    flex-basis: 45%; /* Adjust item width for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .teamMember {
+    flex-basis: 100%; /* Adjust item width for even smaller screens */
+  }
+}
